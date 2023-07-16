@@ -3,7 +3,7 @@
 
 1. UNO보드
    
-공기품질센서(PMS5003ST)에서 측정한 미세먼지농도(pm10), 온도('C ), 습도(%)를 측정 후 LCD 디스플레이, D1R2보드로 전달
+공기품질센서(PMS5003ST)에서 측정한 미세먼지농도(pm10), 온도('C ), 습도(%)를 측정 후 LCD, D1R2보드로 전달
 ```
 #include <MECHA_PMS5003ST.h>
 #include <SoftwareSerial.h>
