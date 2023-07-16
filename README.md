@@ -2,8 +2,7 @@
 아두이노기반 공기청정기
 
 1. UNO보드
-공기품질센서(PMS5003ST)에서 측정한 미세먼지농도(pm10)
-온도('C ), 습도(%)를 측정 후 LCD, D!R2로 전달
+공기품질센서(PMS5003ST)에서 측정한 미세먼지농도(pm10), 온도('C ), 습도(%)를 측정 후 LCD, D1R2로 전달
 ```
 #include <MECHA_PMS5003ST.h>          // 미세먼지센서 라이브러리
 #include <SoftwareSerial.h>           // digital pin 라이브러리
